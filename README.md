@@ -10,9 +10,8 @@ It features a modern UI, animated background, and responsive design.
 
 ---
 
-## 🔗 Live Demo (Optional)
-You can host this project on GitHub Pages for a live preview:  
-**https://Sachin-pandey13.github.io/weather-app** *(create this if you haven’t already)*
+## 🔗 Live Demo  
+> 🌐 [Click here to view the Weather App](https://Sachin-pandey13.github.io/weather-app)
 
 ---
 
@@ -35,9 +34,9 @@ You can host this project on GitHub Pages for a live preview:
 ---
 
 ## 📁 How to Use
-1. Clone or download this repo
-2. Make sure all files (`index.html`, `style.css`, `script.js`, `background.mp4`) are in one folder
-3. Open `index.html` in any modern browser
+1. Clone or download this repo  
+2. Make sure all files (`index.html`, `style.css`, `script.js`, `background.mp4`) are in one folder  
+3. Open `index.html` in any modern browser  
 4. Enjoy checking the weather in style!
 
 ---
