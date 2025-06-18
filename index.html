@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All-In-One Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <video autoplay muted loop id="bgVideo">
+    <source src="background.mp4" type="video/mp4" />
+    Your browser does not support video.
+  </video>
+
+  <div class="container">
+    <h1>🌤️ Weather Info</h1>
+
+    <input type="text" id="cityInput" placeholder="Enter City Name" />
+    <button onclick="getWeatherByCity()">By City</button>
+
+    <br><br>
+
+    <input type="text" id="latInput" placeholder="Latitude (e.g., 28.61)" />
+    <input type="text" id="lonInput" placeholder="Longitude (e.g., 77.23)" />
+    <button onclick="getWeatherByCoords()">By Lat/Lon</button>
+
+    <br><br>
+
+    <button onclick="getWeatherByLocation()" class="location-btn">📍 Use My Location</button>
+
+    <div id="weatherResult"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

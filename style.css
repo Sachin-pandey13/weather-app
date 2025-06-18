@@ -1,0 +1,100 @@
+/* Full-page background video */
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* Body styling */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Centered container */
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(6px); 
+  backdrop-filter: blur(6px);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Input */
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 70%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.location-btn {
+  background-color: #28a745;
+}
+
+.location-btn:hover {
+  background-color: #1e7e34;
+}
+
+.container {
+  /* already present, keep existing styles */
+}
+
+
+/* Result box */
+#weatherResult {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
